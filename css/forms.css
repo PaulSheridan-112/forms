@@ -1,0 +1,164 @@
+.topright  li {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #333;
+}
+
+span {
+  color: #333;
+}
+
+.footer li {
+  display: inline-block;
+  text-align: : center;
+}
+
+.topright {
+  float : right;
+}
+
+#main {
+  margin: 100px auto;
+  width: 52%;
+}
+
+.topright li:first-child a {
+  font-weight: 700;
+  font-size: 100%;
+  }
+
+.topright li:last-child a {
+  border-left: 1px solid rgb(204, 204, 204);
+  padding-left:10px;
+  }
+
+h1 {
+  line-height: 45px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+body {
+  font-family: 'Nunito', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+div {
+  display: block;
+}
+
+input {
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  padding: 9px;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.container {
+  width: 100%;
+  margin-top: 40px;
+}
+
+form * {
+  display: block;
+}
+
+.form {
+  display: block;
+  float: left;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #45cae6;
+}
+
+.sidebar {
+  margin-top: 20px;
+  padding-left: 12px;
+  float: right;
+  width: 32%;
+  height: 590px;
+  color: #666;
+  border-left: 1px solid rgb(204, 204, 204);
+  margin-bottom: 30px;
+}
+
+.sidebar li {
+  padding: 10px 0 ;
+}
+
+button {
+  background-color: #45cae6;
+  width: 110px;
+  padding: 8px 10px;
+  height: 34px;
+  border: none;
+  vertical-align: middle;
+  font-size: 13.5px;
+  color: rgb(255,255,255);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.topleft, .topright {
+  display: inline-block;
+}
+
+p {
+  width: 100%;
+  display: block;
+  margin-top:20px;
+}
+
+label span {
+  display: inline-block;
+}
+
+.form p {
+  color: #7d7f80;
+  font-size: 12px;
+}
+
+#tick {
+  width: 20px;
+  display: inline-block;
+}
+
+.footer  {
+  clear: both;
+  position: relative;
+  margin-top: 40px;
+  height: 280px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+      color: #a5a5a5;
+}
+
+.nav li {
+  padding: 0 20px;
+  display: inline-block;
+  border-left: 1px solid lightgray;
+}
+
+.nav li:first-child {
+  border-left: 0;
+}
+
+h3 {
+  margin-left: 22px;
+}
+
+.footer p {
+  margin-top: 30px;
+  font-size: 0.8em;
+}
